@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Black.woff2') format('woff2'),
+        url('ALSGranate-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Black.woff2') format('woff2'),
+        url('ALSGranate-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Bold.woff2') format('woff2'),
+        url('ALSGranate-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-BlackItalic.woff2') format('woff2'),
+        url('ALSGranate-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-BlackItalic.woff2') format('woff2'),
+        url('ALSGranate-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Bold.woff2') format('woff2'),
+        url('ALSGranate-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate Book';
+    src: url('ALSGranate-BookItalic.woff2') format('woff2'),
+        url('ALSGranate-BookItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-BoldItalic.woff2') format('woff2'),
+        url('ALSGranate-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-MediumItalic.woff2') format('woff2'),
+        url('ALSGranate-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Medium.woff2') format('woff2'),
+        url('ALSGranate-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Medium.woff2') format('woff2'),
+        url('ALSGranate-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-LightItalic.woff2') format('woff2'),
+        url('ALSGranate-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-BoldItalic.woff2') format('woff2'),
+        url('ALSGranate-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Light.woff2') format('woff2'),
+        url('ALSGranate-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-LightItalic.woff2') format('woff2'),
+        url('ALSGranate-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate Book';
+    src: url('ALSGranate-Book.woff2') format('woff2'),
+        url('ALSGranate-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-MediumItalic.woff2') format('woff2'),
+        url('ALSGranate-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Light.woff2') format('woff2'),
+        url('ALSGranate-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate Book';
+    src: url('ALSGranate-BookItalic.woff2') format('woff2'),
+        url('ALSGranate-BookItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate Book';
+    src: url('ALSGranate-Book.woff2') format('woff2'),
+        url('ALSGranate-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Regular.woff2') format('woff2'),
+        url('ALSGranate-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-RegularItalic.woff2') format('woff2'),
+        url('ALSGranate-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-ThinItalic.woff2') format('woff2'),
+        url('ALSGranate-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-RegularItalic.woff2') format('woff2'),
+        url('ALSGranate-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-ThinItalic.woff2') format('woff2'),
+        url('ALSGranate-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Thin.woff2') format('woff2'),
+        url('ALSGranate-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Thin.woff2') format('woff2'),
+        url('ALSGranate-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALS Granate';
+    src: url('ALSGranate-Regular.woff2') format('woff2'),
+        url('ALSGranate-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
