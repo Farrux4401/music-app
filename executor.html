@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Исполнитель</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+
+        <header class="header">
+            <div class="container">
+                <div class="header-nav">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img src="images/logo-music-app.png" alt="Logo" width="50" height="50">
+                        </a>
+                    </div>
+                    <ul class="header-nav__list">
+                        <li><a class="header-nav__link" href="#">Музыка</a></li>
+                        <li><a class="header-nav__link" href="#">Видео</a></li>
+                        <li><a class="header-nav__link" href="#">Дистрибьюция</a></li>
+                        <li><a class="header-nav__link" href="#">Статистика</a></li>
+                        <li><a class="header-nav__link" href="#">Лицензирование</a></li>
+                        <li><a class="header-nav__link" href="#">Финансы</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- Site tabs -->
+        <section class="site-tabs">
+            <div class="container">
+                <div class="site-tabs__content">
+                    <div class="site-tabs__block">
+                        <ul class="tabs">
+                            <li data-tab-target="#release" class="tab">РЕЛИЗ</li>
+                            <li data-tab-target="#download" class="active tab">ЗАГРУЗКА</li>
+                            <li data-tab-target="#tracklist" class="tab">ТРЕКЛИСТ</li>
+                            <li data-tab-target="#country" class="tab">СТРАНЫ</li>
+                            <li data-tab-target="#copyright" class="tab">АВТОРСКИЕ ПРАВА</li>
+                            <li data-tab-target="#sending" class="tab">ОТПРАВКА</li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="release" data-tab-content>
+                                <div class="release-block">
+                                    <ul class="release-add">
+                                        <li>
+                                            <span class="release-txt">формат</span>
+
+                                            <select name="singl" id="singl-select">
+                                                <option value="">сингл</option>
+                                                <option value="dog">Dog</option>
+                                                <option value="cat">Cat</option>
+                                            </select>
+                                        </li>
+
+                                        <li>
+                                            <span class="release-txt">Название релиза</span>
+                                            <input type="text" placeholder="Название альбома" class="name-album">
+                                        </li>
+
+                                        <li>
+                                            <span class="release-txt">Подзаголовок</span>
+                                            <input type="text" placeholder="1" class="name-album">
+                                        </li>
+                                        <li class="switch-li">
+                                            <div class="switch-block">
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                            <span class="switch-txt">
+                                                Содержит треки, уже имеющиеся в моем каталоге
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                            <div class="exe-box">
+                                                <div class="exe-box__name">
+                                                    <img src="images/table-img-1.png" alt="">
+                                                    <p>Ваня Дмитриенко</p>
+                                                </div>
+                                                <button type="button" class="remove-exe-box">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                            <div class="exe-box">
+                                                <div class="exe-box__name">
+                                                    <img src="images/table-img-1.png" alt="">
+                                                    <p>Григорий Лепс</p>
+                                                </div>
+                                                <button type="button" class="remove-exe-box">+</button>
+                                            </div>
+                                            <button type="button" class="exe-box__add">
+                                                <img src="images/add-btn.png" alt="">
+                                            </button>
+                                        </li>
+
+                                        <li>
+                                            <span class="release-txt genre">Жанр</span>
+
+                                            <select name="singl" id="singl-select">
+                                                <option value="">Rock & Roll</option>
+                                                <option value="dog">Jazz</option>
+                                                <option value="cat">Pop</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <span class="release-txt label">Лейбл</span>
+                                            <input type="text" placeholder="" class="name-album">
+                                        </li>
+                                        <li>
+                                            <span class="release-txt label">℗</span>
+                                            <input type="text" placeholder="" class="name-album">
+                                        </li>
+                                        <li>
+                                            <span class="release-txt label">©</span>
+                                            <input type="text" placeholder="" class="name-album">
+                                        </li>
+                                        <li>
+                                            <span class="release-txt label">Дата релиза</span>
+                                            <input type="text" placeholder="" class="name-album">
+                                        </li>
+                                        <li>
+                                            <span class="release-txt genre">Год записи</span>
+
+                                            <select name="singl" id="singl-select">
+                                                <option value="">2023</option>
+                                                <option value="dog">2023</option>
+                                                <option value="cat">2022</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <span class="release-txt label">UPC</span>
+                                            <input type="text" placeholder="" class="name-album">
+                                        </li>
+                                    </ul>
+                                    <div class="upload-img">
+                                        <div class="Neon Neon-theme-dragdropbox">
+                                            <input name="files[]" id="filer_input2" multiple="multiple" type="file">
+                                            <div class="Neon-input-dragDrop">
+                                                <div class="Neon-input-inner">
+                                                    <div class="Neon-input-icon"></div>
+                                                    <div class="Neon-input-text">
+                                                        <h3>Загрузить изображение</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="img-size">Размер 1440×1440 или 3000×3000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="download" data-tab-content class="active">
+                                <div class="download-block">
+                                    <a class="default-btn add-release" href="executor.html"><img src="images/plus.png"
+                                            alt="">
+                                        ДОБАВИТЬ РЕЛИЗ</a>
+                                    <table class="completed-table download-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Наименование</th>
+                                                <th>Разрядность</th>
+                                                <th>Дискретизация</th>
+                                                <th>Загрузка</th>
+                                                <th>Проверка</th>
+                                                <th>Кодирование</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>01 B90_MIX_MAS_dud.wav</td>
+                                                <td>24 bits</td>
+                                                <td>96000 Hz</td>
+                                                <td>
+                                                    <div class="progress-bar__wrapper">
+                                                        <label class="progress-bar__value" htmlFor="progress-bar"> 59%
+                                                        </label>
+                                                        <progress id="progress-bar" value="59" max="100"></progress>
+                                                    </div>
+                                                </td>
+                                                <td><img class="table-docx" src="images/check-icon.png" alt="docx"></td>
+                                                <td><img class="table-docx" src="images/check-icon.png" alt="docx"></td>
+                                                <td><button type="button" class="remove-trash"><img class="table-docx"
+                                                            src="images/remove-trash.png" alt="trash"></button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>01 B90_MIX_MAS_dud.wav</td>
+                                                <td>24 bits</td>
+                                                <td>96000 Hz</td>
+                                                <td>
+                                                    <div class="progress-bar__wrapper">
+                                                        <label class="progress-bar__value" htmlFor="progress-bar"> 30%
+                                                        </label>
+                                                        <progress id="progress-bar" value="30" max="100"></progress>
+                                                    </div>
+                                                </td>
+                                                <td><img class="table-docx" src="images/check-icon.png" alt="docx"></td>
+                                                <td><img class="table-docx" src="images/check-icon.png" alt="docx"></td>
+                                                <td><button type="button" class="remove-trash"><img class="table-docx"
+                                                            src="images/remove-trash.png" alt="trash"></button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>01 B90_MIX_MAS_dud.wav</td>
+                                                <td>24 bits</td>
+                                                <td>96000 Hz</td>
+                                                <td>
+                                                    <div class="progress-bar__wrapper">
+                                                        <label class="progress-bar__value" htmlFor="progress-bar"> 100%
+                                                        </label>
+                                                        <progress id="progress-bar" value="100" max="100"></progress>
+                                                    </div>
+                                                </td>
+                                                <td><img class="table-docx" src="images/check-icon.png" alt="docx"></td>
+                                                <td><img class="table-docx" src="images/check-icon.png" alt="docx"></td>
+                                                <td><button type="button" class="remove-trash"><img class="table-docx"
+                                                            src="images/remove-trash.png" alt="trash"></button>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                    <a href="#" class="create-tracklist">СОЗДАТЬ ТРЕКЛИСТ ИЗ ФАЙЛОВ</a>
+                                </div>
+                            </div>
+                            <div id="tracklist" data-tab-content>
+
+                                <div class="tracklist-block">
+                                    <a class="default-btn add-release" href="executor.html"><img src="images/plus.png"
+                                            alt="">
+                                        ДОБАВИТЬ ТРЕК</a>
+                                    <div class="title disk-title">
+                                        <h2>Диск 1</h2>
+                                    </div>
+                                    <table class="completed-table download-table">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th>Наименование</th>
+                                                <th>Артист</th>
+                                                <th></th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="disk-num">01.</span></td>
+                                                <td>Вечно молодым (Из т/c "Cтруны")</td>
+                                                <td>Ваня Дмитриенко</td>
+                                                <td><span class="badge-danger">EXPLICTED</span></td>
+                                                <td><button type="button" class="remove-trash"><img class="table-docx"
+                                                            src="images/remove-trash.png" alt="trash"></button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="disk-num">02.</span></td>
+                                                <td>Услышит весь район</td>
+                                                <td>Dabro</td>
+                                                <td><span class="badge-danger">EXPLICTED</span></td>
+                                                <td><button type="button" class="remove-trash"><img class="table-docx"
+                                                            src="images/remove-trash.png" alt="trash"></button>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+
+
+                                    <div class="title disk-title">
+                                        <h2>Диск 2</h2>
+                                    </div>
+                                    <table class="completed-table download-table">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th>Наименование</th>
+                                                <th>Артист</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="disk-num">01.</span></td>
+                                                <td>Вечно молодым (Из т/c "Cтруны")</td>
+                                                <td>Ваня Дмитриенко</td>
+                                                <td><button type="button" class="remove-trash"><img class="table-docx"
+                                                            src="images/remove-trash.png" alt="trash"></button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="disk-num">02.</span></td>
+                                                <td>Услышит весь район</td>
+                                                <td>Dabro</td>
+                                                <td><button type="button" class="remove-trash"><img class="table-docx"
+                                                            src="images/remove-trash.png" alt="trash"></button>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                    <a href="#" class="create-tracklist add-section">ДОБАВИТЬ НОВЫЙ РАЗДЕЛ</a>
+                                </div>
+                            </div>
+                            <div id="country" data-tab-content>
+
+                            </div>
+                            <div id="copyright" data-tab-content>
+                                <h1>News</h1>
+                                <p>News is great.</p>
+                            </div>
+                            <div id="sending" data-tab-content>
+                                <h1>News</h1>
+                                <p>News is great.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="remove-release">
+                        <img src="images/remove-trash.png" alt="trash">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
