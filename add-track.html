@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Исполнитель</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+
+        <header class="header">
+            <div class="container">
+                <div class="header-nav">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img src="images/logo-music-app.png" alt="Logo" width="50" height="50">
+                        </a>
+                    </div>
+                    <ul class="header-nav__list">
+                        <li><a class="header-nav__link" href="#">Музыка</a></li>
+                        <li><a class="header-nav__link" href="#">Видео</a></li>
+                        <li><a class="header-nav__link" href="#">Дистрибьюция</a></li>
+                        <li><a class="header-nav__link" href="#">Статистика</a></li>
+                        <li><a class="header-nav__link" href="#">Лицензирование</a></li>
+                        <li><a class="header-nav__link" href="#">Финансы</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- Site tabs -->
+        <section class="site-tabs">
+            <div class="container">
+                <div class="site-tabs__content">
+                    <div class="site-tabs__block">
+                        <ul class="tabs">
+                            <li data-tab-target="#release" class="tab">РЕЛИЗ</li>
+                            <li data-tab-target="#download" class="active tab">ЗАГРУЗКА</li>
+                            <li data-tab-target="#tracklist" class="tab">ТРЕКЛИСТ</li>
+                            <li data-tab-target="#country" class="tab">СТРАНЫ</li>
+                            <li data-tab-target="#copyright" class="tab">АВТОРСКИЕ ПРАВА</li>
+                            <li data-tab-target="#sending" class="tab">ОТПРАВКА</li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="release" data-tab-content>
+
+                            </div>
+                            <div id="download" data-tab-content class="active">
+
+                            </div>
+                            <div id="tracklist" data-tab-content>
+                                <div class="release-block">
+                                    <ul class="release-add">
+                                        <!-- <li>
+                                            <span class="release-txt">формат</span>
+
+                                            <select name="singl" id="singl-select">
+                                                <option value="">сингл</option>
+                                                <option value="dog">Dog</option>
+                                                <option value="cat">Cat</option>
+                                            </select>
+                                        </li> -->
+
+                                        <li>
+                                            <span class="release-txt">Название</span>
+                                            <input type="text" placeholder="Венера-Юпитер" class="name-album">
+                                        </li>
+
+                                        <li>
+                                            <span class="release-txt">Подзаголовок</span>
+                                            <input type="text" placeholder="" class="name-album">
+                                        </li>
+
+                                        <li>
+                                            <span class="release-txt">Исполнитель</span>
+                                            <div class="exe-box" style="margin: 0;">
+                                                <div class="exe-box__name">
+                                                    <img src="images/table-img-1.png" alt="">
+                                                    <p>Ваня Дмитриенко</p>
+                                                </div>
+                                                <button type="button" class="remove-exe-box">+</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                            <div class="exe-box">
+                                                <div class="exe-box__name">
+                                                    <img src="images/table-img-1.png" alt="">
+                                                    <p>Григорий Лепс</p>
+                                                </div>
+                                                <button type="button" class="remove-exe-box">+</button>
+                                            </div>
+                                            <button type="button" class="exe-box__add">
+                                                <img src="images/add-btn.png" alt="">
+                                            </button>
+                                        </li>
+
+                                        <li>
+                                            <span class="release-txt genre">Жанр</span>
+
+                                            <select name="singl" id="singl-select">
+                                                <option value="">Русская поп-музыка</option>
+                                                <option value="dog">Jazz</option>
+                                                <option value="cat">Pop</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <span class="release-txt label">℗ PLine</span>
+                                            <input type="text" placeholder="" class="name-album">
+                                        </li>
+                                        <li>
+                                            <span class="release-txt label">Издатель</span>
+                                            <input type="text" placeholder="" class="name-album">
+                                        </li>
+                                        <li>
+                                            <span class="release-txt genre">Год записи</span>
+
+                                            <select name="singl" id="singl-select">
+                                                <option value="">2023</option>
+                                                <option value="dog">2023</option>
+                                                <option value="cat">2022</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <span class="release-txt label">ISRC</span>
+                                            <input type="text" placeholder="123456789" class="name-album">
+                                        </li>
+                                        <li class="switch-li">
+                                            <div class="switch-block">
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                            <span class="switch-txt">
+                                                Присвоить ISRC
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="release-txt genre">Уровень цен</span>
+
+                                            <select name="singl" id="singl-select">
+                                                <option value="">Front: 19 руб / 1.29$ / 1.29 €</option>
+                                                <option value="dog">2023</option>
+                                                <option value="cat">2022</option>
+                                            </select>
+                                        </li>
+                                        <li class="switch-li instrument-block">
+                                            <span class="switch-txt instrument-txt">
+                                                Инструментальная
+                                            </span>
+                                            <div class="switch-block" style="text-align: left;">
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                        </li>
+
+                                        <li class="audio-player__block">
+                                            <div class="audio-player__block-item1">
+                                                <div class="audio-player__block-inner">
+                                                    <span class="release-txt danger-txt">Автор</span>
+                                                    <div class="exe-box" style="margin: 0;">
+                                                        <div class="exe-box__name">
+                                                            <img src="images/table-img-1.png" alt="">
+                                                            <p>Ваня Дмитриенко</p>
+                                                        </div>
+                                                        <button type="button" class="remove-exe-box">+</button>
+                                                    </div>
+                                                </div>
+                                                <div class="audio-player__block-inner">
+                                                    <span class="release-txt danger-txt">Композитор</span>
+                                                    <div class="exe-box" style="margin: 0;">
+                                                        <div class="exe-box__name">
+                                                            <img src="images/table-img-1.png" alt="">
+                                                            <p>Ваня Дмитриенко</p>
+                                                        </div>
+                                                        <button type="button" class="remove-exe-box">+</button>
+                                                    </div>
+                                                </div>
+                                                <div class="audio-player__block-inner">
+                                                    <select name="singl" id="singl-select" style="width: 150px;">
+                                                        <option value="">сингл</option>
+                                                        <option value="dog">Dog</option>
+                                                        <option value="cat">Cat</option>
+                                                    </select>
+                                                    <div class="exe-box" style="margin: 0;">
+                                                        <div class="exe-box__name">
+                                                            <img src="images/table-img-1.png" alt="">
+                                                            <p>Ваня Дмитриенко</p>
+                                                        </div>
+                                                        <button type="button" class="remove-exe-box">+</button>
+                                                    </div>
+                                                    <button type="button" class="exe-box__add">
+                                                        <img src="images/add-btn.png" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="audio-player__block-item2">
+                                                <div class="audio-player__block-info">
+                                                    <label>Файл</label>
+                                                    <select name="disks" id="disk-select" class="disk-select">
+                                                        <option value="">02 B47_DEMO_MIX_MAS_1_dud.wav</option>
+                                                        <option value="">02 B47_DEMO_MIX_MAS_1_dud.wav</option>
+                                                        <option value="">02 - Последнее слово.wav</option>
+                                                    </select>
+                                                </div>
+                                                <div class="audio-player__block-info">
+                                                    <label>Начало превью</label>
+                                                    <span class="prevyu">00:29</span>
+                                                </div>
+                                                <div class="audio-player__block-info">
+
+                                                    <label></label>
+                                                    <audio controls>
+                                                        <source
+                                                            src="https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"
+                                                            type="audio/mp3">
+                                                    </audio>
+
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <span class="release-txt genre">Ненормативная лексика</span>
+
+                                            <div class="radio_container">
+                                                <input type="radio" name="radio" id="one" checked>
+                                                <label for="one">Да</label>
+                                                <input type="radio" name="radio" id="two">
+                                                <label for="two">Нет</label>
+                                                <input type="radio" name="radio" id="three">
+                                                <label for="three">Чистая версия</label>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <span class="release-txt genre">Язык названия композиции</span>
+
+                                            <select name="singl" id="singl-select">
+                                                <option value="">Русский</option>
+                                                <option value="dog">2023</option>
+                                                <option value="cat">2022</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <span class="release-txt genre">Язык слов песни</span>
+
+                                            <select name="singl" id="singl-select">
+                                                <option value="">Русский</option>
+                                                <option value="dog">2023</option>
+                                                <option value="cat">2022</option>
+                                            </select>
+                                        </li>
+
+                                        <li>
+                                            <span class="release-txt genre">Текст песни</span>
+                                            <textarea name="songTxt" id="song-txt" cols="30" rows="10"></textarea>
+                                        </li>
+                                    </ul>
+
+
+                                </div>
+
+                                <div class="track-actions">
+                                    <button type="button" class="save-btn">СОХРАНИТЬ</button>
+                                    <button type="button" class="delete-btn"><img src="images/remove-trash.png"
+                                            alt="trash" width="30" height="30">
+                                        удалить</button>
+                                </div>
+                            </div>
+                            <div id="country" data-tab-content>
+
+                            </div>
+                            <div id="copyright" data-tab-content>
+                                <h1>News</h1>
+                                <p>News is great.</p>
+                            </div>
+                            <div id="sending" data-tab-content>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="/js/jquery.checktree.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        $(function () {
+            $('ul.tree').checkTree({
+
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

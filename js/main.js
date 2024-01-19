@@ -14,3 +14,21 @@ tabs.forEach((tab) => {
     target.classList.add("active");
   });
 });
+
+$(document).ready(function ($) {
+  $(function () {
+    $("ul.tree").checkTree({
+      onExpand: null,
+      onCollapse: null,
+      onCheck: null,
+      onUnCheck: null,
+      onHalfCheck: null,
+      onLabelHoverOver: null,
+      onLabelHoverOut: null,
+    });
+  });
+});
+
+
+
+// AUDIO PLAYER
