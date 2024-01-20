@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>РЕЛИЗ</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+
+        <header class="header">
+            <div class="container">
+                <div class="header-nav">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img src="images/logo-music-app.png" alt="Logo" width="50" height="50">
+                        </a>
+                    </div>
+                    <ul class="header-nav__list">
+                        <li><a class="header-nav__link" href="#">Музыка</a></li>
+                        <li><a class="header-nav__link" href="#">Видео</a></li>
+                        <li><a class="header-nav__link" href="#">Дистрибьюция</a></li>
+                        <li><a class="header-nav__link" href="#">Статистика</a></li>
+                        <li><a class="header-nav__link" href="#">Лицензирование</a></li>
+                        <li><a class="header-nav__link" href="#">Финансы</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- Site tabs -->
+        <section class="site-tabs">
+            <div class="container">
+                <div class="site-tabs__content">
+                    <div class="site-tabs__block">
+                        <ul class="tabs">
+                            <li data-tab-target="#release" class="active tab">РЕЛИЗ</li>
+                            <li data-tab-target="#stat" class=" tab">CТАТИСТИКА</li>
+                            <li data-tab-target="#finance" class="tab">ФИНАНСЫ</li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="release" data-tab-content class="upload-video active">
+                                <div class="upload-video__block">
+                                    <div class="upload-video__block-header">
+                                        <p>Загрузка видео </p>
+                                        <div class="upload-video__block-header-btns">
+                                            <button type="button"><img src="images/circle-info-solid.svg"
+                                                    alt=""></button>
+                                            <button type="button"><img src="images/xmark-solid.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="upload-video__block-body">
+
+                                        <div class="video-upload-img">
+                                            <img src="images/upload-solid.svg" alt="" width="60" height="60">
+                                        </div>
+
+                                        <div class="card">
+
+                                            <div class="drop_box">
+                                                <p>Перетащите файлы сюда или нажмите кнопку ниже, чтобы выбрать их на
+                                                    компьютере.
+                                                    <span>Пока вы не опубликуете видео, доступ к ним будет
+                                                        ограничен.</span>
+                                                </p>
+                                                <input type="file" hidden id="fileID" style="display:none;">
+                                                <button class="btn">ВЫБРАТЬ ФАЙЛЫ</button>
+                                                <div class="upload-video__block-txt">
+                                                    <span>Добавляя видео, вы принимаете <a href="#">Условия
+                                                            использования</a>
+                                                        и <a href="#">правила
+                                                            сообщества</a> YouTube.</span>
+                                                    Также вы обязуетесь соблюдать авторские права и конфиденциальность
+                                                    данных других пользователей. <a href="#">Подробнее...</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div id="stat" data-tab-content>
+
+                            </div>
+                            <div id="finance" data-tab-content>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="/js/jquery.checktree.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        $(function () {
+            $('ul.tree').checkTree({
+
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
