@@ -933,6 +933,7 @@ ul.tree li .half_checked {
 .release-view {
   display: flex;
   gap: 100px;
+  justify-content: space-between;
   margin-bottom: 60px;
 }
 .release-view__img img {
@@ -967,7 +968,7 @@ ul.tree li .half_checked {
   gap: 22px;
 }
 .release-view__info-list li {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   display: flex;
   justify-content: space-between;
@@ -1104,4 +1105,112 @@ ul.tree li .half_checked {
 
 .upload-video__block-txt a {
   color: #0961d4;
+}
+
+.video-release__view {
+  border-radius: 20px;
+  background: #f8f9f8;
+  padding: 20px 25px;
+}
+
+.text-gray {
+  font-size: 15px;
+  color: #a2a5ae;
+  margin-left: auto;
+}
+
+.video-release__view .release-view__info-list li {
+  display: flex !important;
+  justify-content: baseline !important;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .header .header-nav {
+    margin: 0;
+  }
+  .header-nav__link {
+    font-size: 18px;
+  }
+  .default-btn {
+    margin-right: 54px;
+  }
+  .title h2 {
+    font-size: 28px;
+  }
+  .at-work-table th:nth-child(2),
+  .at-work-table td:nth-child(2),
+  .completed-table th:nth-child(2),
+  .completed-table td:nth-child(2) {
+    padding-right: 20px;
+  }
+  .at-work-table th:nth-child(3),
+  .at-work-table td:nth-child(3),
+  .completed-table th:nth-child(3),
+  .completed-table td:nth-child(3) {
+    padding-right: 30px;
+  }
+  .at-work-table td,
+  .completed-table td {
+    font-size: 15px;
+  }
+  progress {
+    height: 30px;
+  }
+  .progress-bar__value {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .disk-title {
+    padding-left: 35px;
+  }
+  .inner-tree {
+    font-size: 15px;
+  }
+  ul.tree label {
+    margin-left: 10px;
+  }
+  .badge-error {
+    font-size: 12px;
+    padding: 7px 20px;
+  }
+  .release-add li,
+  .name-album {
+    font-size: 15px;
+  }
+  .table-name-th {
+    width: 25%;
+  }
+  .disk-select {
+    font-size: 15px;
+  }
+  .release-view__info-title {
+    font-size: 26px;
+  }
+  .release-view__info-list li,
+  .text-gray {
+    font-size: 14px;
+  }
+  .text-gray {
+    margin-left: 0;
+  }
+  .badge-danger {
+    font-size: 11px;
+  }
 }
